@@ -1,7 +1,7 @@
 import React from "react"
-import reactLogo from './assets/react.svg'
+import reactLogo from '../src/assets/react.svg'
 
-export default function Header() {
+export default function Navbar() {
     return (
         <header>
             <nav className="nav">
@@ -9,9 +9,9 @@ export default function Header() {
                 <img src={reactLogo} className="logo react" alt="React logo" />
               </a>
               <ul className="nav-items">
-                  <li>Pricing</li>
-                  <li>About</li>
-                  <li>Contact</li>
+                  <li>Compétences</li>
+                  <li>Expériences</li>
+                  <li>Projets</li>
               </ul>
             </nav>
         </header>
