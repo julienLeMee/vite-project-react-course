@@ -19,6 +19,11 @@ body {
   padding: 24px;
 }
 
+.main-content li::marker {
+  color: #61DAFB;
+  font-size: 1.5rem;
+}
+
 .skills {
   text-align: center;
 }
