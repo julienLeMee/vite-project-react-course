@@ -15,24 +15,24 @@ import sqlLogo from '../src/assets/sql-logo.png'
 
 export default function Skills() {
     return (
-      <div>
+      <div className='skills'>
         <h3>Compétences</h3>
-        <ul>
-          <img src={rubyLogo} className="logo ruby" alt="Ruby logo" />
-          <img src={ajaxLogo} className="logo ajax" alt="Ajax logo" />
-          <img src={bootstrapLogo} className="logo bootstrap" alt="Bootstrap logo" />
-          <img src={cssLogo} className="logo css" alt="CSS logo" />
-          <img src={figmaLogo} className="logo figma" alt="Figma logo" />
-          <img src={gitLogo} className="logo git" alt="Git logo" />
-          <img src={githubLogo} className="logo github" alt="Github logo" />
-          <img src={javascriptLogo} className="logo javascript" alt="Javascript logo" />
-          <img src={htmlLogo} className="logo html" alt="HTML logo" />
-          <img src={railsLogo} className="logo rails" alt="Rails logo" />
-          <img src={sassLogo} className="logo sass" alt="Sass logo" />
-          <img src={sqlLogo} className="logo sql" alt="SQL logo" />
+        <ul className='skills-list'>
+          <img src={rubyLogo} className="skills-logo logo ruby" alt="Ruby logo" />
+          <img src={ajaxLogo} className="skills-logo logo ajax" alt="Ajax logo" />
+          <img src={bootstrapLogo} className="skills-logo logo bootstrap" alt="Bootstrap logo" />
+          <img src={cssLogo} className="skills-logo logo css" alt="CSS logo" />
+          <img src={figmaLogo} className="skills-logo logo figma" alt="Figma logo" />
+          <img src={gitLogo} className="skills-logo logo git" alt="Git logo" />
+          <img src={githubLogo} className="skills-logo logo github" alt="Github logo" />
+          <img src={javascriptLogo} className="skills-logo logo javascript" alt="Javascript logo" />
+          <img src={htmlLogo} className="skills-logo logo html" alt="HTML logo" />
+          <img src={railsLogo} className="skills-logo logo rails" alt="Rails logo" />
+          <img src={sassLogo} className="skills-logo logo sass" alt="Sass logo" />
+          <img src={sqlLogo} className="skills-logo logo sql" alt="SQL logo" />
         </ul>
         <h3>Currently learning</h3>
-          <img src={reactLogo} className="logo react" alt="React logo" />
+          <img src={reactLogo} className="skills-logo-react logo react" alt="React logo" />
      </div>
     )
 }

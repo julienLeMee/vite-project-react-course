@@ -5,14 +5,9 @@ export default function Navbar() {
     return (
         <header>
             <nav className="nav">
-              <a href="https://reactjs.org" target="_blank">
-                <img src={reactLogo} className="logo react" alt="React logo" />
-              </a>
-              <ul className="nav-items">
-                  <li>Compétences</li>
-                  <li>Expériences</li>
-                  <li>Projets</li>
-              </ul>
+              <img src={reactLogo} className="nav-logo" alt="React logo" />
+              <h3 className="nav-title">React course</h3>
+              <h4 className="nav-link"><a href="http://www.julienlemee.com">Portfolio</a></h4>
             </nav>
         </header>
     )
